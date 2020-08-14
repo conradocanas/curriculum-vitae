@@ -3,10 +3,28 @@
     padding-left: 10px;
 }
 a{
-    color: #555
+    color: #555;
 }
 a:hover {
-    font-weight: 500;
+    font-weight: 400;
     color:#333;
     text-decoration: none;
+}
+@media print {
+	.no-printme  {
+		display: none;
+	}
+	.printme  {
+		display: block;
+	}
+}
+.floating-d {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.floating-p {
+    position: fixed;
+    bottom: 55px;
+    right: 10px;
 }

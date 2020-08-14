@@ -16,7 +16,7 @@ const experiencia = [{
 ];
 const estudios = [{
     lugar: "Saul A. Taborda",
-    periodo: "2011-2018",
+    periodo: "2008-2011",
     descripción: "Bachiller en Ciencias Naturales y Medio Ambiente"
     }
 ];
@@ -49,6 +49,18 @@ function init() {
         <p>${estudios[i].descripción}</p>`
         document.getElementById("estudios").appendChild(item)
     }
+
+}
+
+function printDiv(printable){
+    var printContents = document.getElementById(printable).innerHTML;
+    var originalContents = document.body.innerHTML;
+
+    document.body.innerHTML = printContents;
+
+    window.print();
+
+    document.body.innerHTML = originalContents;
 
 }
 
