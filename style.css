@@ -1,0 +1,12 @@
+.redes {
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+a{
+    color: #555
+}
+a:hover {
+    font-weight: 500;
+    color:#333;
+    text-decoration: none;
+}
