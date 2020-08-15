@@ -43,50 +43,48 @@ const lenguajesAprendiendo =
     "https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg"
 ]
 
-function init() {
-    // Cambia el nombre del H1 que con tiene el nombre del usuario
-    var nombreDOM = document.getElementById("name")
-    nombreDOM.innerText = nombre
+// Cambia el nombre del H1 que con tiene el nombre del usuario
+var nombreDOM = document.getElementById("name")
+nombreDOM.innerText = nombre
 
-    // Itineración que crea los items en "Experiencia"
-    for (i = 0; i < experiencia.length; i++){
-        var item = document.createElement("div")
-        item.innerHTML =
-        `<div class="d-flex justify-content-between">
-        <span class="card-title h6 exp-title">${experiencia[i].lugar}</span>
-        <span class="exp-date">${experiencia[i].periodo}</span>
-        </div>
-        <p>${experiencia[i].descripción}</p>`
-        document.getElementById("experiencia").appendChild(item)
-    }
-
-    // Itineración que crea los items en "Estudios"
-    for (i = 0; i < estudios.length; i++){
-        var item = document.createElement("div")
-        item.innerHTML =
-        `<div class="d-flex justify-content-between">
-        <span class="card-title h6 exp-title">${estudios[i].lugar}</span>
-        <span class="exp-date">${estudios[i].periodo}</span>
-        </div>
-        <p>${estudios[i].descripción}</p>`
-        document.getElementById("estudios").appendChild(item)
-    }
-
-    // Itineración que crea los items en "Lenguajes y programas"
-    for (i = 0; i < lenguajesActuales.length; i++){
-        var item = document.createElement("div")
-        item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesActuales[i]}" />`
-        document.getElementById("lenguajesActuales").appendChild(item)
-    }
-
-    // Itineración que crea los items en "Lenguajes y tecnologias aprendiendo"
-    for (i = 0; i < lenguajesAprendiendo.length; i++){
-        var item = document.createElement("div")
-        item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesAprendiendo[i]}" />`
-        document.getElementById("lenguajesAprendiendo").appendChild(item)
-    }
-
+// Itineración que crea los items en "Experiencia"
+for (i = 0; i < experiencia.length; i++){
+    var item = document.createElement("div")
+    item.innerHTML =
+    `<div class="d-flex justify-content-between">
+    <span class="card-title h6 exp-title">${experiencia[i].lugar}</span>
+    <span class="exp-date">${experiencia[i].periodo}</span>
+    </div>
+    <p>${experiencia[i].descripción}</p>`
+    document.getElementById("experiencia").appendChild(item)
 }
+
+// Itineración que crea los items en "Estudios"
+for (i = 0; i < estudios.length; i++){
+    var item = document.createElement("div")
+    item.innerHTML =
+    `<div class="d-flex justify-content-between">
+    <span class="card-title h6 exp-title">${estudios[i].lugar}</span>
+    <span class="exp-date">${estudios[i].periodo}</span>
+    </div>
+    <p>${estudios[i].descripción}</p>`
+    document.getElementById("estudios").appendChild(item)
+}
+
+// Itineración que crea los items en "Lenguajes y programas"
+for (i = 0; i < lenguajesActuales.length; i++){
+    var item = document.createElement("div")
+    item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesActuales[i]}" />`
+    document.getElementById("lenguajesActuales").appendChild(item)
+}
+
+// Itineración que crea los items en "Lenguajes y tecnologias aprendiendo"
+for (i = 0; i < lenguajesAprendiendo.length; i++){
+    var item = document.createElement("div")
+    item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesAprendiendo[i]}" />`
+    document.getElementById("lenguajesAprendiendo").appendChild(item)
+}
+
 
 function printDiv(printable){
     var printContents = document.getElementById(printable).innerHTML;
@@ -97,7 +95,6 @@ function printDiv(printable){
     window.print();
 
     document.body.innerHTML = originalContents;
-
 }
 
 init()
