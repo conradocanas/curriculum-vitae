@@ -31,8 +31,7 @@ const lenguajesActuales =
     "https://devicons.github.io/devicon/devicon.git/icons/wordpress/wordpress-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/slack/slack-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Microsoft_Excel_2013_logo.svg/782px-Microsoft_Excel_2013_logo.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Word_2013_logo.svg/611px-Microsoft_Word_2013_logo.svg.png"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Microsoft_Excel_2013_logo.svg/782px-Microsoft_Excel_2013_logo.svg.png"
 ]
 const lenguajesAprendiendo =
 [
@@ -75,14 +74,14 @@ for (i = 0; i < estudios.length; i++){
 for (i = 0; i < lenguajesActuales.length; i++){
     var item = document.createElement("div")
     item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesActuales[i]}" />`
-    document.getElementById("lenguajesActuales").appendChild(item)
+    document.getElementById("lenguajes_actuales").appendChild(item)
 }
 
 // Itineración que crea los items en "Lenguajes y tecnologias aprendiendo"
 for (i = 0; i < lenguajesAprendiendo.length; i++){
     var item = document.createElement("div")
     item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesAprendiendo[i]}" />`
-    document.getElementById("lenguajesAprendiendo").appendChild(item)
+    document.getElementById("lenguajes_aprendiendo").appendChild(item)
 }
 
 
@@ -96,5 +95,3 @@ function printDiv(printable){
 
     document.body.innerHTML = originalContents;
 }
-
-init()
