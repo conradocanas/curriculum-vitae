@@ -1,9 +1,9 @@
-.redes {
-    padding-bottom: 15px;
-    padding-left: 10px;
+.entry {
+    padding: 5px 5px 5px 5px;
 }
 a{
     color: #555;
+    text-decoration: none;
 }
 a:hover {
     font-weight: 400;
@@ -27,4 +27,7 @@ a:hover {
     position: fixed;
     bottom: 55px;
     right: 10px;
+}
+.badge {
+    text-transform: uppercase;
 }
