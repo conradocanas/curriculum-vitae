@@ -31,3 +31,8 @@ a:hover {
 .badge {
     text-transform: uppercase;
 }
+@media (max-width: 768px){
+    .information{
+        margin-top: 25px;
+    }
+}
