@@ -9,10 +9,6 @@ const experiencia = [{
     lugar: "Alto Brillo S.A.",
     periodo: "2012-2018",
     descripción: "Gerente General de Marca.<br> Liderando procesos de diseño y desarrollo de productos, coordinando personal y supervisando ventas mayoristas y minoristas. En este periodo de trabajo se logro aumentar un 500% en unidades vendidas semestralmente a mas de 100 clientes en todo Argentina. Contaba con un equipo de 6 personas a cargo en diferentes areas."
-    },{
-    lugar: "Rio Yuspe SRL",
-    periodo: "2011",
-    descripción: "Vendedor y encargado de caja en corralon y ferreteria"
     }
 ];
 
