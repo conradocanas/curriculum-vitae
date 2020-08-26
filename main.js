@@ -26,18 +26,18 @@ const lenguajesActuales = [
     "https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/visualstudio/visualstudio-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/github/github-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/wordpress/wordpress-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/slack/slack-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Microsoft_Excel_2013_logo.svg/782px-Microsoft_Excel_2013_logo.svg.png"
 ]
 
 const lenguajesAprendiendo = [
-    "https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg",
+    "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg",
+    "https://devicons.github.io/devicon/devicon.git/icons/redux/redux-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg"
+    "https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg",
+    "https://devicons.github.io/devicon/devicon.git/icons/sass/sass-original.svg",
+    "https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original.svg"
 ]
 
 // Cambia el nombre del H1 que con tiene el nombre del usuario
@@ -48,7 +48,7 @@ nombreDOM.innerText = nombre
 for (i = 0; i < experiencia.length; i++){
     var item = document.createElement("div")
     item.innerHTML =
-    `<div class="d-flex justify-content-between mt-4">
+    `<div class="d-flex justify-content-between mt-3">
     <span class="card-title h6 exp-title">${experiencia[i].lugar}</span>
     <span class="exp-date">${experiencia[i].periodo}</span>
     </div>
@@ -71,14 +71,14 @@ for (i = 0; i < estudios.length; i++){
 // Itineración que crea los items en "Lenguajes y programas"
 for (i = 0; i < lenguajesActuales.length; i++){
     var item = document.createElement("div")
-    item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesActuales[i]}" />`
+    item.innerHTML = `<img class="languages" align="left" alt="JavaScript" width="40" src="${lenguajesActuales[i]}" />`
     document.getElementById("lenguajes_actuales").appendChild(item)
 }
 
 // Itineración que crea los items en "Lenguajes y tecnologias aprendiendo"
 for (i = 0; i < lenguajesAprendiendo.length; i++){
     var item = document.createElement("div")
-    item.innerHTML = `<img style="margin-right: 15px" align="left" alt="JavaScript" width="40" src="${lenguajesAprendiendo[i]}" />`
+    item.innerHTML = `<img class="languages" align="left" alt="JavaScript" width="40" src="${lenguajesAprendiendo[i]}" />`
     document.getElementById("lenguajes_aprendiendo").appendChild(item)
 }
 
