@@ -1,4 +1,4 @@
 # curriculum-vitae
-This is my personal Curriculum Vitae, it contains all the information about me. It's an open source project so anyone who wants to use it as their personal CV is welcome.
+This is my personal Curriculum Vitae, it contains all work related information about me. It's an open for anyone who wants to use it as their personal CV.
 
-##### DEMO: https://conradocanas.github.io/curriculum-vitae/
+##### CV link: https://cv.conradocanas.com.ar
