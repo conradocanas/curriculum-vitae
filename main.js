@@ -1,8 +1,14 @@
 const nombre = "Conrado Cañas"
 
-const experiencia = [{
+const experiencia = [
+    {
+        lugar: "EMDX",
+        periodo: "Septiembre 2020 - Actualidad",
+        descripción: "Actualmente trabajo como Front End Developer en EMDX, empresa dedicada a Blockchain y Criptomonedas. Entre mis funciones están el desarrollo y maquetado de componentes, vistas y gráficos para su plataforma de trading."
+    },
+    {
     lugar: "Freelancer",
-    periodo: "2019 - Actualidad",
+    periodo: "2019 - 2020",
     descripción: "Montaje de sitios web para clientes de todo el mundo.<br> Trabajos realizados con WordPress y Woocommerce para tiendas online. Mas de 90 proyectos entregados en 23 paises. Se realizan las tareas de atención al cliente, desarrollo y capacitación en caso de ser necesario. Los proyectos necesitaron uso de CSS, HTML y JavaScript en menor medida."
     },
     {
@@ -20,12 +26,14 @@ const estudios = [{
 ];
 
 const lenguajesActuales = [
+    "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/visualstudio/visualstudio-plain.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/github/github-original.svg",
+    "https://devicon.dev/devicon.git/icons/bitbucket/bitbucket-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/slack/slack-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg",
 ]
@@ -33,7 +41,6 @@ const lenguajesActuales = [
 const lenguajesAprendiendo = [
     "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/redux/redux-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg",
     "https://devicons.github.io/devicon/devicon.git/icons/sass/sass-original.svg",
