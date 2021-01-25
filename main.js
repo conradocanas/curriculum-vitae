@@ -3,17 +3,17 @@ const nombre = "Conrado Cañas"
 const experiencia = [
     {
         lugar: "EMDX",
-        periodo: "Septiembre 2020 - Actualidad",
+        periodo: "Sep 2020 - Actualidad",
         descripción: "Actualmente trabajo como Front End Developer en EMDX, empresa dedicada a Blockchain y Criptomonedas. Entre mis funciones están el desarrollo y maquetado de componentes, vistas y gráficos para su plataforma de trading."
     },
     {
     lugar: "Freelancer",
-    periodo: "2019 - 2020",
+    periodo: "Feb 2019 -  Sep 2020",
     descripción: "Montaje de sitios web para clientes de todo el mundo.<br> Trabajos realizados con WordPress y Woocommerce para tiendas online. Mas de 90 proyectos entregados en 23 paises. Se realizan las tareas de atención al cliente, desarrollo y capacitación en caso de ser necesario. Los proyectos necesitaron uso de CSS, HTML y JavaScript en menor medida."
     },
     {
     lugar: "Alto Brillo S.A.",
-    periodo: "2012-2018",
+    periodo: "Ene 2012- Nov 2018",
     descripción: "Gerente General de Marca.<br> Liderando procesos de diseño y desarrollo de productos, coordinando personal y supervisando ventas mayoristas y minoristas. En este periodo de trabajo se logro aumentar un 500% en unidades vendidas semestralmente a mas de 100 clientes en todo Argentina. Contaba con un equipo de 6 personas a cargo en diferentes areas."
     }
 ];
