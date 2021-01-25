@@ -26,25 +26,25 @@ const estudios = [{
 ];
 
 const lenguajesActuales = [
-    "https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-plain.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/visualstudio/visualstudio-plain.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/github/github-original.svg",
-    "https://devicon.dev/devicon.git/icons/bitbucket/bitbucket-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/slack/slack-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/slack/slack-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg",
 ]
 
 const lenguajesAprendiendo = [
-    "https://devicons.github.io/devicon/devicon.git/icons/react/react-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/redux/redux-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/sass/sass-original.svg",
-    "https://devicons.github.io/devicon/devicon.git/icons/docker/docker-original.svg"
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
 ]
 
 // Cambia el nombre del H1 que con tiene el nombre del usuario
