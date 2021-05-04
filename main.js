@@ -39,8 +39,8 @@ const lenguajesActuales = [
 ]
 
 const lenguajesAprendiendo = [
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
