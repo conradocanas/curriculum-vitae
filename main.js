@@ -3,25 +3,25 @@ const nombre = "Conrado Cañas"
 const experiencia = [
     {
         lugar: "EMDX",
-        periodo: "Sep 2020 - Actualidad",
-        descripción: "Actualmente trabajo como Front End Developer en EMDX, empresa dedicada a Blockchain y Criptomonedas. Entre mis funciones están el desarrollo y maquetado de componentes, vistas y gráficos para su plataforma de trading."
+        periodo: "Sep 2020 - present",
+        descripción: "I currently work as a Front End Developer at EMDX, a company dedicated to Blockchain and Cryptocurrencies. Among my duties are the development and layout of components, views, and graphics for their trading platform."
     },
     {
     lugar: "Freelancer",
     periodo: "Feb 2019 -  Sep 2020",
-    descripción: "Montaje de sitios web para clientes de todo el mundo.<br> Trabajos realizados con WordPress y Woocommerce para tiendas online. Mas de 90 proyectos entregados en 23 paises. Se realizan las tareas de atención al cliente, desarrollo y capacitación en caso de ser necesario. Los proyectos necesitaron uso de CSS, HTML y JavaScript en menor medida."
+    descripción: "Website development for clients worldwide. Projects completed using WordPress and Woocommerce for online stores. Over 90 projects delivered in 23 countries. Tasks include customer service, development, and training if necessary. Projects required the use of CSS, HTML, and JavaScript to a lesser extent."
     },
     {
     lugar: "Alto Brillo S.A.",
-    periodo: "Ene 2012- Nov 2018",
-    descripción: "Gerente General de Marca.<br> Liderando procesos de diseño y desarrollo de productos, coordinando personal y supervisando ventas mayoristas y minoristas. En este periodo de trabajo se logro aumentar un 500% en unidades vendidas semestralmente a mas de 100 clientes en todo Argentina. Contaba con un equipo de 6 personas a cargo en diferentes areas."
+    periodo: "Jan 2012- Nov 2018",
+    descripción: "Brand General Manager. Leading product design and development processes, coordinating personnel, and overseeing wholesale and retail sales. During this work period, a 500% increase in units sold was achieved biannually to more than 100 customers throughout Argentina. Was in charge of a team of 6 people in different areas."
     }
 ];
 
 const estudios = [{
     lugar: "Saul A. Taborda",
     periodo: "2008-2011",
-    descripción: "Bachiller en Ciencias Naturales y Medio Ambiente"
+    descripción: "Bachelor of Natural Sciences and Environment."
     }
 ];
 
