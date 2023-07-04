@@ -2,17 +2,17 @@ const nombre = "Conrado Cañas"
 
 const experiencia = [
     {
-        lugar: "EMDX",
+        lugar: "EMDX - Fullstack Developer",
         periodo: "Sep 2020 - present",
-        descripción: "I currently work as a Front End Developer at EMDX, a company dedicated to Blockchain and Cryptocurrencies. Among my duties are the development and layout of components, views, and graphics for their trading platform."
+        descripción: "I'm currently working as a Frontend Developer at EMDX. Creating web3 dApps that interact directly with different blockchains. Among my duties are development of components, views, and graphics. I've created several apps and boilerplates, mainly for tooling and customer's intereactions."
     },
     {
-    lugar: "Freelancer",
+    lugar: "Freelancer - Web Developer",
     periodo: "Feb 2019 -  Sep 2020",
     descripción: "Website development for clients worldwide. Projects completed using WordPress and Woocommerce for online stores. Over 90 projects delivered in 23 countries. Tasks include customer service, development, and training if necessary. Projects required the use of CSS, HTML, and JavaScript to a lesser extent."
     },
     {
-    lugar: "Alto Brillo S.A.",
+    lugar: "Alto Brillo S.A. - Manager",
     periodo: "Jan 2012- Nov 2018",
     descripción: "Brand General Manager. Leading product design and development processes, coordinating personnel, and overseeing wholesale and retail sales. During this work period, a 500% increase in units sold was achieved biannually to more than 100 customers throughout Argentina. Was in charge of a team of 6 people in different areas."
     }
@@ -26,25 +26,30 @@ const estudios = [{
 ];
 
 const lenguajesActuales = [
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/slack/slack-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg",
+    "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+    "https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D",
+    "https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82",
+    "https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF",
+    "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+    "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+    "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB",
+    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+    "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+    "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
+    "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"
 ]
 
 const lenguajesAprendiendo = [
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
-    "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+    "https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white",
+    "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
+    "https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101",
+    "https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white",
+    "https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white",
+    "https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white",
+    "https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"
 ]
 
 // Cambia el nombre del H1 que con tiene el nombre del usuario

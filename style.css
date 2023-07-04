@@ -31,12 +31,27 @@ a:hover {
 .badge {
     text-transform: uppercase;
 }
+.languages {
+    margin: 10px 5px 10px 5px;
+    margin-top: 10px;
+    width: auto;
+}
+.exp-title {
+    font-weight: 600;
+}
+
 @media (max-width: 768px){
     .information{
         margin-top: 25px;
     }
 }
-.languages {
-    margin: 10px 5px 10px 5px;
-    margin-top: 10px;
+
+@media print {
+    a:link {
+        border-bottom: none !important;
+        text-decoration: none !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
 }
