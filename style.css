@@ -1,6 +1,4 @@
-.entry {
-    padding: 5px 5px 5px 5px;
-}
+
 a{
     color: #555;
     text-decoration: none;
@@ -10,13 +8,8 @@ a:hover {
     color:#333;
     text-decoration: none;
 }
-@media print {
-	.no-printme  {
-		display: none;
-	}
-	.printme  {
-		display: block;
-	}
+.entry {
+    padding: 5px 5px 5px 5px;
 }
 .floating-d {
     position: fixed;
@@ -54,4 +47,10 @@ a:hover {
     a[href]:after {
         content: none !important;
     }
+    .no-printme  {
+		display: none;
+	}
+	.printme  {
+		display: block;
+	}
 }
