@@ -60,8 +60,8 @@ nombreDOM.innerText = nombre
 for (i = 0; i < experiencia.length; i++){
     var item = document.createElement("div")
     item.innerHTML =
-    `<div class="d-flex justify-content-between mt-3">
-    <span class="card-title h6 exp-title">${experiencia[i].lugar}</span>
+    `<div class="d-flex justify-content-between exp-title-container">
+    <span class="exp-title">${experiencia[i].lugar}</span>
     <span class="exp-date">${experiencia[i].periodo}</span>
     </div>
     <p>${experiencia[i].descripción}</p>`
@@ -73,7 +73,7 @@ for (i = 0; i < estudios.length; i++){
     var item = document.createElement("div")
     item.innerHTML =
     `<div class="d-flex justify-content-between">
-    <span class="card-title h6 exp-title">${estudios[i].lugar}</span>
+    <span class="exp-title">${estudios[i].lugar}</span>
     <span class="exp-date">${estudios[i].periodo}</span>
     </div>
     <p>${estudios[i].descripción}</p>`
