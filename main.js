@@ -4,7 +4,7 @@ const experiencia = [
     {
         lugar: "EMDX - Fullstack Developer",
         periodo: "Sep 2020 - present",
-        descripción: "I'm currently working as a Frontend Developer at EMDX. Creating web3 dApps that interact directly with different blockchains. Among my duties are development of components, views, and graphics. I've created several apps and boilerplates, mainly for tooling and customer's intereactions."
+        descripción: "I'm currently working as Developer at EMDX. Creating web3 dApps that interact directly with different blockchains. Among my duties are development of components, views, and graphics. I've created several apps and boilerplates, mainly for tooling and customer's intereactions."
     },
     {
     lugar: "Freelancer - Web Developer",
